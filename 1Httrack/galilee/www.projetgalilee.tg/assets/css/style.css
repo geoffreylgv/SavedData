@@ -1,0 +1,60 @@
+/*================================================================================
+	Item Name: Robust - Responsive Admin Theme
+	Version: 1.0
+	Author: PIXINVENT
+	Author URL: http://www.themeforest.net/user/pixinvent
+================================================================================
+
+NOTE:
+------
+PLACE HERE YOUR OWN SCSS CODES AND IF NEEDED, OVERRIDE THE STYLES FROM THE OTHER STYLESHEETS.
+WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BETTER LIKE THIS.  */
+
+@font-face
+{
+font-family: 'Poppins-extra-ligth';
+src: url('../fonts/Poppins/Poppins-ExtraLight.ttf');
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face
+{
+font-family: 'Poppins-ligth';
+src: url('../fonts/Poppins/Poppins-Light.ttf');
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face
+{
+font-family: 'Poppins-Regular';
+src: url('../fonts/Poppins/Poppins-Regular.ttf');
+font-weight: normal;
+font-style: normal;
+}
+
+
+
+@font-face
+{
+font-family: 'Montserrat-Regular';
+src: url('../fonts/Montserrat/Montserrat-Regular.ttf');
+font-weight: normal;
+font-style: normal;
+}
+
+
+
+body{
+font-family: 'Poppins-Regular';
+font-size:1.1em;
+}
+
+.horizontal-menu .navbar-dark .nav-item.active > a{
+	background-color:#FFFFFF;
+	color:#696969;
+}
+.horizontal-menu .navbar-dark .nav-item.active > a:hover{
+	color:#000000;
+}

@@ -1,0 +1,6 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+pastel.diplomatie.gouv.fr	TRUE	/etudesenfrance/	FALSE	1999999999	JSESSIONID	0FABEF900F42530B440B1DA874E3F31B.jvm01g154-3
+pastel.diplomatie.gouv.fr	TRUE	/etudesenfrance/	FALSE	1999999999	TS015e724d	01185409089739e2bd2a6ab65fb3a6ca7189e4a1bd9db024e792e2a41bdddf62e61fcad317dfcee16f1d1eea857446160120d3d5b0
+pastel.diplomatie.gouv.fr	TRUE	/	FALSE	1999999999	TS01b8e02e	01185409089739e2bd2a6ab65fb3a6ca7189e4a1bd9db024e792e2a41bdddf62e61fcad317dfcee16f1d1eea857446160120d3d5b0
+

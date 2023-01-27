@@ -1,0 +1,14 @@
+HTTrack3.49-2+htsswf+htsjava launched on Fri, 24 Jun 2022 14:20:11 at https://pastel.diplomatie.gouv.fr/etudesenfrance/dyn/public/authentification/login.html +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://pastel.diplomatie.gouv.fr/etudesenfrance/dyn/public/authentification/login.html -O1 "G:\Owns\1Httrack\CF_Site" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+14:20:15	Warning: 	Moved Temporarily for https://pastel.diplomatie.gouv.fr/robots.txt
+14:20:15	Warning: 	File has moved from https://pastel.diplomatie.gouv.fr/robots.txt to https://pastel.diplomatie.gouv.fr/fildariane/
+14:23:20	Error: 	"Not Found" (404) at link https://pastel.diplomatie.gouv.fr/etudesenfrance/static-3.57.4/gallery/gallery-dse/dist/component//modal.nomodule.js (from https://pastel.diplomatie.gouv.fr/etudesenfrance/dyn/public/authentification/login.html;jsessionid=0FABEF900F42530B440B1DA874E3F31B.jvm01g154-3?codeLangue=EN)
+
+HTTrack Website Copier/3.49-2 mirror complete in 3 minutes 53 seconds : 53 links scanned, 51 files written (4301784 bytes overall) [2703607 bytes received at 11603 bytes/sec], 2036318 bytes transferred using HTTP compression in 36 files, ratio 20%, 5.3 requests per connection
+(1 errors, 2 warnings, 0 messages)

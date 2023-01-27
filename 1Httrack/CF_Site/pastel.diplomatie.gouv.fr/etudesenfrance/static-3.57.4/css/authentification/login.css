@@ -1,0 +1,22 @@
+@CHARSET "UTF-8";
+
+.no-background {
+    background-image: url("%24%7bimagePortail.html");
+}
+
+#map { 
+	height: 375px; 
+    width: 100%;
+    position: relative;
+}
+
+.ecf-map {
+	padding-left: 675px!important; 
+	padding-right: 675px!important; 
+}
+
+.ecf-mobile-map {
+	padding-left: 2rem!important; 
+	padding-right: 2rem!important; 
+}
+

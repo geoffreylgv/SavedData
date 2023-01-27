@@ -1,0 +1,548 @@
+.yui3-gallery-fwt-treeview ul {
+	list-style: none;
+	cursor: pointer;
+}
+
+.yui3-gallery-fwt-treeview .yui3-flyweight-tree-node-content {
+	clear: both;
+	overflow: hidden;
+	display: inline-block;
+}
+
+.yui3-gallery-fwt-treeview li .yui3-fw-treeview-label,
+	.yui3-gallery-fwt-treeview li .yui3-fw-treeview-toggle,
+	.yui3-gallery-fwt-treeview li .yui3-fw-treeview-selection,
+	.yui3-gallery-fwt-treeview li .yui3-fw-treeview-icon {
+	float: left;
+}
+
+.yui3-gallery-fwt-treeview .yui3-flyweight-tree-node-collapsed .yui3-flyweight-tree-node-children
+	{
+	display: none;
+}
+
+.yui3-js-enabled .yui3-arborescence-loading {
+	display: none;
+}
+
+.hornet-skin-etudesenfrance .yui3-flyweight-tree-node-children {
+	margin: 0;
+}
+
+.hornet-skin-etudesenfrance .yui3-gallery-fwt-treeview ul {
+	padding-left: 18px;
+}
+
+.hornet-skin-etudesenfrance .yui3-gallery-fwt-treeview>ul {
+	background: none;
+	padding-left: 0;
+}
+
+.hornet-skin-etudesenfrance .yui3-gallery-fwt-treeview .yui3-flyweight-tree-node-loading .yui3-fw-treeview-toggle
+	{
+	background: url(assets/treeview-loading.gif) 0 0 no-repeat;
+}
+
+.hornet-skin-etudesenfrance .yui3-gallery-fwt-treeview li {
+	background: url(assets/treeview-sprite.png) -336px 0 repeat-y;
+}
+
+.hornet-skin-etudesenfrance .yui3-gallery-fwt-treeview .yui3-flyweight-tree-node-last-child
+	{
+	background: none;
+}
+
+.hornet-skin-etudesenfrance .yui3-gallery-fwt-treeview li .yui3-fw-treeview-toggle
+	{
+	width: 18px;
+	height: 22px;
+	float: left;
+}
+
+.hornet-skin-etudesenfrance .yui3-gallery-fwt-treeview .yui3-fw-treeview-toggle
+	{
+	background: url(assets/treeview-sprite.png) 0 0 repeat-y;
+}
+
+.hornet-skin-etudesenfrance .yui3-gallery-fwt-treeview .yui3-flyweight-tree-node-content:focus
+	{
+	outline: none;
+}
+
+.hornet-skin-etudesenfrance .yui3-gallery-fwt-treeview .yui3-fw-treeview-label
+	{
+	padding: 0 2px;
+}
+
+.hornet-skin-etudesenfrance  .yui3-gallery-fwt-treeview .yui3-flyweight-tree-node-no-children>div>.yui3-fw-treeview-toggle
+	{
+	background-position: -18px -4px;
+	background-repeat: no-repeat;
+}
+
+.hornet-skin-etudesenfrance  .yui3-gallery-fwt-treeview .yui3-flyweight-tree-node-no-children.yui3-flyweight-tree-node-last-child>div>.yui3-fw-treeview-toggle
+	{
+	background-position: -36px -4px;
+	background-repeat: no-repeat;
+}
+
+.hornet-skin-etudesenfrance  .yui3-gallery-fwt-treeview .yui3-flyweight-tree-node-expanded>div>.yui3-fw-treeview-toggle
+	{
+	background-position: -54px -4px;
+	background-repeat: no-repeat;
+}
+
+.hornet-skin-etudesenfrance  .yui3-gallery-fwt-treeview .yui3-flyweight-tree-node-expanded>div>.yui3-fw-treeview-toggle:hover
+	{
+	background-position: -72px -4px;
+	background-repeat: no-repeat;
+}
+
+.hornet-skin-etudesenfrance  .yui3-gallery-fwt-treeview .yui3-flyweight-tree-node-expanded.yui3-flyweight-tree-node-last-child>div>.yui3-fw-treeview-toggle
+	{
+	background-position: -90px -4px;
+	background-repeat: no-repeat;
+}
+
+.hornet-skin-etudesenfrance  .yui3-gallery-fwt-treeview .yui3-flyweight-tree-node-expanded.yui3-flyweight-tree-node-last-child>div>.yui3-fw-treeview-toggle:hover
+	{
+	background-position: -108px -4px;
+	background-repeat: no-repeat;
+}
+
+.hornet-skin-etudesenfrance  .yui3-gallery-fwt-treeview .yui3-flyweight-tree-node-collapsed>div>.yui3-fw-treeview-toggle
+	{
+	background-position: -126px -4px;
+	background-repeat: no-repeat;
+}
+
+.hornet-skin-etudesenfrance  .yui3-gallery-fwt-treeview .yui3-flyweight-tree-node-collapsed>div>.yui3-fw-treeview-toggle:hover
+	{
+	background-position: -144px -4px;
+	background-repeat: no-repeat;
+}
+
+.hornet-skin-etudesenfrance  .yui3-gallery-fwt-treeview .yui3-flyweight-tree-node-collapsed.yui3-flyweight-tree-node-last-child>div>.yui3-fw-treeview-toggle
+	{
+	background-position: -162px -4px;
+	background-repeat: no-repeat;
+}
+
+.hornet-skin-etudesenfrance  .yui3-gallery-fwt-treeview .yui3-flyweight-tree-node-collapsed.yui3-flyweight-tree-node-last-child>div>.yui3-fw-treeview-toggle:hover
+	{
+	background-position: -180px -4px;
+	background-repeat: no-repeat;
+}
+
+.hornet-skin-etudesenfrance  .yui3-gallery-fwt-treeview .yui3-fw-treeview-selection
+	{
+	display: none;
+}
+
+.hornet-skin-etudesenfrance  .yui3-fw-treeview-checkbox .yui3-gallery-fwt-treeview ul
+	{
+	padding-left: 30px;
+}
+
+.hornet-skin-etudesenfrance  .yui3-fw-treeview-checkbox .yui3-gallery-fwt-treeview .yui3-fw-treeview-selection
+	{
+	width: 16px;
+	height: 22px;
+	background: url(assets/treeview-sprite.png) 0 0 no-repeat;
+	display: block;
+}
+
+.hornet-skin-etudesenfrance  .yui3-fw-treeview-checkbox .yui3-gallery-fwt-treeview .yui3-fw-treeview-selected-state-0>div>.yui3-fw-treeview-selection
+	{
+	background-position: -270px -4px;
+	background-repeat: no-repeat;
+}
+
+.hornet-skin-etudesenfrance  .yui3-fw-treeview-checkbox .yui3-gallery-fwt-treeview .yui3-fw-treeview-selected-state-1>div>.yui3-fw-treeview-selection
+	{
+	background-position: -302px -4px;
+	background-repeat: no-repeat;
+}
+
+.hornet-skin-etudesenfrance  .yui3-fw-treeview-checkbox .yui3-gallery-fwt-treeview .yui3-fw-treeview-selected-state-2>div>.yui3-fw-treeview-selection
+	{
+	background-position: -286px -4px;
+	background-repeat: no-repeat;
+}
+
+.hornet-skin-etudesenfrance  .yui3-fw-treeview-checkbox .yui3-gallery-fwt-treeview .yui3-fw-treeview-selected-state-null>div>.yui3-fw-treeview-selection
+	{
+	background-position: -318px -4px;
+	background-repeat: no-repeat;
+}
+
+/** LABELS **/
+.labelOK {
+	font-weight: bold;
+	color: green !important;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.labelOKmaigre, .ok {
+	color: green !important;
+}
+
+.labelNOK {
+	font-weight: bold;
+	color: red !important;
+}
+
+.labelNOKmaigre {
+	color: red !important;
+}
+
+.labelNOKSouligne {
+	font-weight: bold;
+	color: red !important;
+	text-decoration: underline;
+}
+
+.labelACompleter {
+	font-weight: bold;
+	color: orange !important;
+}
+
+.labelACompleterMaigre, .warning {
+	color: orange !important;
+}
+
+.labelNeutre {
+	color: grey !important;
+}
+
+.labelAttention {
+	font-weight: bold;
+	text-decoration: underline;
+	color: orange !important;
+}
+
+.labelChamp {
+	text-align: right;
+	margin: 5px 0;
+	padding: 2px 5px 0 0;
+}
+
+.champConsult {
+	font-weight: bold;
+	margin: 5px 0;
+	padding: 2px 0 0 0;
+}
+
+.labelInfos {
+	font-weight: bold;
+	display: block;
+	margin: 5px 0;
+	padding: 2px 5px 0 0;
+}
+
+.labelInfosDSE {
+    font-weight:bold;
+    display:block;
+}
+
+.labelInfosSansGras {
+	display: inline-block;
+	margin: 5px 0;
+	padding: 2px 5px 0 0;
+}
+
+.labelInfosPetitEspace {
+	font-weight: bold;
+	display: block;
+	padding: 1px 5px 2px 5px;
+}
+
+.lettreAvis {
+	font-weight: bold;
+	font-size: 2.5em;
+}
+
+.labelBllabelOKeu {
+	color: #4173C8 !important;
+}
+
+.labelFerme {
+	color: orange !important;
+}
+
+.hidden {
+    display:none;
+}
+
+/** JSOverlay */
+
+.jsoverlay-footer {
+	background-color: #FFFFFF;
+	text-align : center;
+}
+
+.jsoverlay-footer button {
+  --link-underline: none;
+  --link-blank-font: none;
+  --link-blank-content: none;
+  margin: 0.5rem;
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  z-index: 1;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  min-height: 2.5rem;
+  padding: 0.5rem 1.5rem;
+  background-color: var(--bf500);
+  color: var(--w-bf500);
+}
+
+.jsoverlay-container {
+    background: none repeat scroll 0 0 #EEEEEE;
+ 	outline-color: #EEEEEE !important;
+    margin: auto;
+    overflow: auto;
+    position: fixed;
+}   
+
+
+.jsoverlay-contentbg {
+    background-color: #FFFFFF;
+    overflow: auto;
+    padding: 0;
+    position: relative;
+    width: 100%;
+}
+
+.jsoverlay-content {
+    background-color: #FFFFFF;
+    overflow: auto;
+    padding: 10px 6px;
+    overflow: hidden;
+}
+
+.jsoverlay-header {
+  flex: auto 0 0;
+  display: flex;
+  align-items: center;
+  padding: 1rem 1rem 0.5rem;
+  background-color: #FFFFFF;
+}
+
+
+.jsoverlay-close {
+    color: #FFFFFF;
+    cursor: pointer;
+    float: right;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.jsoverlay-mask {
+    background-color: #EEEEEE;
+    height: 100%;
+    left: 0;
+    margin: auto;
+    opacity: 0.5;
+    filter:alpha(opacity=80);
+    overflow: visible;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.loaderClass, .loaderClass:focus, .loaderClass .jsoverlay-contentbg, .loaderClass .jsoverlay-contentbg .jsoverlay-content{
+    border:none;
+    background: transparent;
+}
+
+.loaderClass:focus {
+    outline: none;
+}
+
+.titre_aide{
+    text-align:center;
+}
+
+#aide {
+    width: 800;
+    *width: 800;
+}
+
+.aide {
+    font-size:1em;
+    font-style:italic;
+    text-align:left;
+}
+
+.aide_contenu {
+    padding: 5px;
+}
+
+.noScroll{
+overflow: hidden;
+
+}
+.postIt {
+    background-color: #FFF9B1 !important;
+}
+.postIt, .postIt:focus, .postIt:hover {
+    color: black;
+}
+
+div .encadreOk .encadreBleuVideConditionnel {
+    border-color: #99CCFF;
+    border-style:solid;
+    border-width:2px;
+    padding: 0.2em;  
+}
+
+.encadreRoseVide {
+    border-color: #9966CC;
+    border-style:solid;
+    border-width:2px;
+    padding: 0.2em;   
+}
+
+div .encadreOk .encadreRoseVideConditionnel {
+    border-color: #9966CC;
+    border-style:solid;
+    border-width:2px;
+    padding: 0.2em;   
+}
+
+div .encadreOk .encadreBleuVideConditionnel {
+    border-color: #99CCFF;
+    border-style:solid;
+    border-width:2px;
+    padding: 0.2em;  
+}
+
+.encadreRoseVide {
+    border-color: #9966CC;
+    border-style:solid;
+    border-width:2px;
+    padding: 0.2em;   
+}
+
+.selection, .selectionEtab {
+    background-color: #d6ecfa;
+}
+
+
+.background--grey {
+	background-color: var(----text-default-grey);
+}
+
+.errorBox:empty, .infoBox:empty, .formmgr-message-text:empty {
+	display: none;
+}
+
+.fr-label {
+/*  TODO DLM Taille de police SM */
+  font-size: 0.875rem !important;
+  line-height: 1.5rem !important;
+}
+
+.fr-input {
+  
+/*   TODO DLM Taille de police SM */
+  font-size: 0.875rem !important;
+  line-height: 1.5rem !important;
+}
+
+.fr-select {
+/*   TODO DLM Taille de police SM */
+  font-size: 0.875rem !important;
+}
+
+.fr-label+a+.fr-input, .fr-label+a+.fr-input-wrap, .fr-label+a+.fr-select {
+	margin-top: 0.5rem;
+}
+
+.cef-block {
+	background: #e3e3fd; /* blue-france-925 */
+}
+
+.cef-block--ecf {
+	background: #e3e3fd; /* blue-france-925 */
+	padding: 1rem !important;
+}
+
+.cef-hr {
+	box-shadow: 0 -2px 0 0 var(--border-plain-blue-france);
+}
+
+.cef-color {
+	background-color: #F5F5FF;
+}
+
+/* The snackbar - position it at the bottom and in the middle of the screen */
+#snackbar {
+  visibility: hidden; /* Hidden by default. Visible on click */
+  min-width: 250px; /* Set a default minimum width */
+  margin-left: -125px; /* Divide value of min-width by 2 */
+  background-color: #333; /* Black background color */
+  color: #fff; /* White text color */
+  text-align: center; /* Centered text */
+  border-radius: 2px; /* Rounded borders */
+  padding: 16px; /* Padding */
+  position: fixed; /* Sit on top of the screen */
+  z-index: 1; /* Add a z-index if needed */
+  left: 50%; /* Center the snackbar */
+  bottom: 30px; /* 30px from the bottom */
+}
+
+/* Show the snackbar when clicking on a button (class added with JavaScript) */
+#snackbar.show {
+  visibility: visible; /* Show the snackbar */
+  /* Add animation: Take 0.5 seconds to fade in and out the snackbar.
+  However, delay the fade out process for 2.5 seconds */
+  -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+  animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+/* Animations to fade the snackbar in and out */
+@-webkit-keyframes fadein {
+  from {bottom: 0; opacity: 0;}
+  to {bottom: 30px; opacity: 1;}
+}
+
+@keyframes fadein {
+  from {bottom: 0; opacity: 0;}
+  to {bottom: 30px; opacity: 1;}
+}
+
+@-webkit-keyframes fadeout {
+  from {bottom: 30px; opacity: 1;}
+  to {bottom: 0; opacity: 0;}
+}
+
+@keyframes fadeout {
+  from {bottom: 30px; opacity: 1;}
+  to {bottom: 0; opacity: 0;}
+} 
+
+.inactiveLink {
+   pointer-events: none;
+   cursor: default;
+}
+
+.sticky-button {
+   position: sticky;
+   position: -webkit-sticky;
+   position: -moz-sticky;
+   position: -ms-sticky;
+   position: -o-sticky;
+   bottom: 30px;
+   float: right;
+}
+
+.noMarginTop {
+	margin-top: 0px !important;
+}

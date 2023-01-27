@@ -1,0 +1,4 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+construireautogo.gouv.tg	TRUE	/	FALSE	1999999999	JSESSIONID	188AC20374763B547BC5A730B7A6D22D
+

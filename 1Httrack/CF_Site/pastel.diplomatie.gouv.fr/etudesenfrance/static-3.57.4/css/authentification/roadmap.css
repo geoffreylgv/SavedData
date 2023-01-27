@@ -1,0 +1,137 @@
+:root {
+	--rm200-400: rgb(252, 229, 231);
+	--w-p: rgb(255, 255, 255);
+	--bf200-bf500: rgb(236, 236, 255);
+}
+
+// Roadmap
+.eef-wrapper-roadmap {
+  background-color: var(--bf500-plain);
+  color: var(--w-p);
+  .timeline-wrapper {
+    position: relative;
+    padding-bottom: 2rem;
+    margin: 0 0 2rem 0;
+    @media (min-width: 62em) {
+      padding-bottom: 5rem;
+    }
+  }
+  .timeline-wrapper::after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 17.3px 10px 0 10px;
+    border-color: #fff transparent transparent transparent;
+    left: 48.9%;
+    bottom: -10px;
+    position: absolute;
+    @media (max-width: 62em) {
+      left: -1px;
+    }
+  }
+
+  .timeline::after {
+    content: "";
+    position: absolute;
+    width: 3px;
+    background: var(--w-p);
+    top: 15%;
+    bottom: 0;
+    left: 50%;
+    margin-left: -2px;
+  }
+
+  .timeline-container {
+    padding: 0 0 0 0;
+    position: relative;
+    background: inherit;
+    width: 50%;
+  }
+
+  .timeline-container.left {
+    left: 0;
+  }
+
+  .timeline-container.right {
+    left: 50%;
+  }
+
+  .timeline-container::after {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: calc(50% - 8px);
+    right: -10px;
+    background: var(--rm300);
+    border: 3px solid var(--w-p);
+    border-radius: 16px;
+    z-index: 1;
+  }
+
+  .timeline-container.right::after {
+    left: -10px;
+  }
+
+  .timeline-container.right::before {
+    left: 8px;
+  }
+
+  .timeline-container.right .timeline-content {
+    padding: 0 0 0 90px;
+  }
+
+  .timeline-container.left .timeline-content {
+    padding: 0 90px 0 0;
+  }
+  .fr-h2 {
+    margin: 0;
+  }
+
+  @media (max-width: 62em) {
+    .timeline::after {
+      left: 9px;
+      top: 10%;
+    }
+
+    .timeline-container {
+      width: 100%;
+      padding-left: 45px;
+    }
+
+    .timeline-container.right {
+      left: 0%;
+    }
+
+    .timeline-container.left::after,
+    .timeline-container.right::after {
+      left: -2px;
+      top: 40px;
+    }
+
+    .timeline-container.left::before,
+    .timeline-container.right::before {
+      left: 100px;
+      border-color: transparent var(--w-p) transparent transparent;
+    }
+
+    .timeline-container.left .date,
+    .timeline-container.right .date {
+      right: auto;
+      left: 15px;
+    }
+
+    .timeline-container.left .icon,
+    .timeline-container.right .icon {
+      right: auto;
+      left: 146px;
+    }
+
+    .timeline-container.left .timeline-content,
+    .timeline-container.right .timeline-content {
+      padding: 0;
+      border-radius: 500px 0 0 500px;
+    }
+  }
+}

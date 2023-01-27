@@ -1,0 +1,332 @@
+body {
+    background-color: #FFFFFF !important;
+}
+
+.navbar-default .nav > li.active {
+
+    border-left: 4px solid #FFFFFF;
+    border-bottom: solid 1px #FAFAFA;
+
+}
+.navbar-static-top {
+    background: #ba00be;
+}
+
+.row.border-bottom{
+    /*    padding-bottom: 1px;
+        background-color: #f3f3f4;
+        border-bottom: 1px solid #ba00be !important; */
+}
+
+
+.nav.navbar-right > li > a {
+    color: #FFFFFF;
+}
+.text-muted {
+    color: #FFFFFF;
+}
+.navbar-top-links li a {
+    padding: 5px 10px; 
+    min-height: 50px;
+}
+.navbar-top-links li:last-child {
+    margin-right: 20px;
+}
+
+.btn-primary {
+    background-color: #107100;
+    border-color: #107100;
+    color: #FFFFFF;
+}
+.btn-violet {
+    background-color: #ba00be;
+    border-color: #ba00be;
+    color: #FFFFFF;
+}
+
+.btn-violet:hover {
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.dropdown.profile-element{
+    background-color: #FFFFFF;
+}
+.navbar-minimalize.btn-primary {
+
+    border : none;
+    color: #FFFFFF;
+    margin: 10px 15px 10px 20px;
+    background: rgba(0,0,0, .3);
+}
+.entete{
+    float: left; 
+    line-height: 10px; 
+
+    font-size: 1.8em; 
+    color: #FFFFFF; 
+    /*opacity: .7;*/
+}
+.navbar-default .nav > li > a {
+    color: #545353;
+
+    font-weight: 400;
+}
+.white-bg {
+    background-color: transparent;
+}
+.navbar-default, .navbar-static-side{
+
+}
+.sidebar-collapse{
+
+    background-color: #FFFFFF;
+    /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+}
+.navbar-static-side{
+     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 20px 0 rgba(0, 0, 0, 0.1);
+
+}
+ul.bar_menu {
+    margin-left: 0  !important;
+    padding-left: 0  !important;
+
+}
+ul.bar_menu  li {
+    width: 100% !important;
+    list-style: none !important;
+
+}
+/*.nav > li > a {
+    color: #a7b1c2;
+    font-weight: 400;
+    padding: 7px 20px 7px 25px;
+}*/
+/*.bar_menu a{
+    padding: 8px 12px;
+<<<<<<< HEAD
+    background-color: #107100;
+=======
+    background-color: #545353;
+>>>>>>> 09b2a40a4399ac4f38bd072a520e863e34abedb3
+    color: white;  
+    display: block;
+}
+.bar_menu a i{
+    margin-right: 10px;
+}*/
+.tabs-container .nav-tabs > li.active > a, .tabs-container .nav-tabs > li.active > a:hover, .tabs-container .nav-tabs > li.active > a:focus {
+
+    color: #107100;
+}
+.navbar-default .nav > li > a:hover, .navbar-default .nav > li > a:focus {
+    background-color: #107100;
+    color: #FFFFFF;
+
+}
+.navbar-default{
+    /*border-right: 1px solid #000000;*/ 
+}
+#page-wrapper{
+
+
+}
+.navbar-default .nav > li.active > a {
+    font-weight: 700;
+
+    background-color: #FFFFFF;
+    color: #545353;
+}
+.navbar-default .nav > li {
+    background: #FFFFFF;
+
+}
+.logoul{
+}
+#fos_user_change_password_form_plainPassword div {
+    float: left;
+}
+.ibox-tools h2 a:hover {
+
+    color: #545353 !important;
+
+}
+.ibox-tools h2 a {
+    color: #EEFFEE !important;
+}
+
+.no_hover{
+    pointer-events: none;
+}
+.breadcrumb {
+    background-color: #FFF; 
+    color: #343434;
+    padding: 8px;
+}
+
+/**
+* Style relatif à l'affichage des etapes de l'inscription'
+*/
+.wizard_horizontal{
+    border-bottom: 1px solid #FFF; 
+}
+.form_wizard .stepContainer {
+    display: block;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    border: 0 solid #CCC;
+    overflow-x: hidden;  
+}
+.wizard_horizontal ul.wizard_steps {
+    display: table; 
+    list-style: none;
+    position: relative;
+    width: 100%;
+    margin: 0 0 20px
+}
+.wizard_horizontal ul.wizard_steps li {
+    display: table-cell;
+    text-align: center
+}
+.wizard_horizontal ul.wizard_steps li a,
+.wizard_horizontal ul.wizard_steps li:hover {
+    display: block;
+    position: relative;
+    -moz-opacity: 1;
+    filter: alpha(opacity=100);
+    opacity: 1;
+    color: #666
+}
+.wizard_horizontal ul.wizard_steps li a:before {
+    content: "";
+    position: absolute;
+    height: 2px;
+    background: #ccc;
+    top: 20px;
+    width: 100%;
+    z-index: 4;
+    left: 0
+}
+.wizard_horizontal ul.wizard_steps li a.disabled .step_no {
+    background: #ccc
+}
+.wizard_horizontal ul.wizard_steps li a .step_no {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 100px;
+    display: block;
+    margin: 0 auto 5px;
+    font-size: 16px;
+    text-align: center;
+    position: relative;
+    z-index: 5
+}
+.wizard_horizontal ul.wizard_steps li a.selected:before,
+.step_no {
+    background: #D3D3D4;
+    color: #fff
+}
+.wizard_horizontal ul.wizard_steps li a.done:before,
+.wizard_horizontal ul.wizard_steps li a.done .step_no {
+    background: #1ABB9C;
+    color: #fff
+}
+
+.wizard_horizontal ul.wizard_steps li a.current:before,
+.wizard_horizontal ul.wizard_steps li a.current .step_no {
+    background: #EECC66;
+    color: #fff
+}
+
+
+.wizard_horizontal ul.wizard_steps li a.rejected:before,
+.wizard_horizontal ul.wizard_steps li a.rejected .step_no {
+    background: #FF0000;
+    color: #fff
+}
+
+
+.wizard_horizontal ul.wizard_steps li:first-child a:before {
+    left: 50%
+}
+.wizard_horizontal ul.wizard_steps li:last-child a:before {
+    right: 50%;
+    width: 50%;
+    left: auto
+}
+.step_descr{
+
+    display: block;
+    width: 100px;
+}
+
+.custom_collapsible {
+    background-color: #FFF;
+    color: #343434;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+}
+
+.active, .custom_collapsible:hover {
+    background-color: #F3F3F4;
+}
+
+.custom_collapsible:after {
+    content: '\002B';
+    color: #343434;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+
+/*    content: "\2212";*/
+
+}
+
+.custom_collapsible_content {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: #F3F3F4;
+}
+
+.wizard > .content {
+    background: #FFFFFF !important;
+    border: 1px solid #CCCCCC;
+}
+
+h2.custom {
+    color: #ba00be !important;
+}
+
+h3.custom {
+
+    color: #545353 !important;
+
+}
+.identifiant{
+    display: none;
+}
+@media (max-width: 992px) {
+    .navbar-header span.t_p {
+        display: none;
+    }
+}
+@media (max-width: 1200px) {
+    .identifiant{
+        display: block;
+    }
+    .nom{
+        display: none;
+    }
+}

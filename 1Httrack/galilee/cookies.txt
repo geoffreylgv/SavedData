@@ -1,0 +1,4 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+www.projetgalilee.tg	TRUE	/	FALSE	1999999999	PHPSESSID	364f07a922f4fc9c77749a17a1210b03
+

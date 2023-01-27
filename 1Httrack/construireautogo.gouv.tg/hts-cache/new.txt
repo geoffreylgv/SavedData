@@ -1,0 +1,4 @@
+date	size'/'remotesize	flags(request:Update,Range state:File response:Modified,Chunked,gZipped)	statuscode	status ('servermsg')	MIME	Etag|Date	URL	localfile	(from URL)
+10:24:03	3894/3894	---M--	500	error ('Internal%20Server%20Error')	text/html	date:Wed,%2008%20Jun%202022%2010:24:02%20GMT	https://construireautogo.gouv.tg/robots.txt		(from )
+10:24:03	0/0	---M--	302	error ('Found')	text/html	date:Wed,%2008%20Jun%202022%2010:24:02%20GMT	https://construireautogo.gouv.tg/?0	G:/Owns/1Httrack/construireautogo.gouv.tg/construireautogo.gouv.tg/indexcfcd.html	(from )
+10:24:03	0/0	---M--	302	error ('Found')	text/html	date:Wed,%2008%20Jun%202022%2010:24:03%20GMT	https://construireautogo.gouv.tg/	G:/Owns/1Httrack/construireautogo.gouv.tg/construireautogo.gouv.tg/index.html	(from https://construireautogo.gouv.tg/?0)
